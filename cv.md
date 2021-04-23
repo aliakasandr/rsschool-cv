@@ -38,3 +38,6 @@ class Number {
 ### Education:
 #### * 2004-2010: Belarusian State University of Transport, 
 ####   specialist diploma- mechanical engineer.
+
+### Language skills:
+#### * English – B1

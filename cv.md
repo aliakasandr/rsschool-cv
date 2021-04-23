@@ -11,3 +11,26 @@
 
 ### Skills:
 #### * HTML5/CSS3  basic level.
+
+### Code examples:
+```
+class Number {
+    var firstSP: Int = 1
+    var secondSP: Int = 2
+    var thirdSP: Int {
+        willSet(newValue) {
+           print(newValue)
+        }
+        didSet {
+            if firstSP == 1 {
+                print(oldValue)
+            }
+        }
+    }
+    init(firstSP: Int, secondSP: Int, thirdSP: Int) {
+        self.firstSP = firstSP
+        self.secondSP = secondSP
+        self.thirdSP = thirdSP
+    }
+}
+```
